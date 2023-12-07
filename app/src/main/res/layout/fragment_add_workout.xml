@@ -59,11 +59,19 @@
         android:id="@+id/list_exercice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/add_exercice_button"
         app:layout_constraintTop_toBottomOf="@+id/workout_description_input" />
 
     <Button
         android:id="@+id/add_exercice_button"
+=======
+        app:layout_constraintBottom_toTopOf="@+id/save_exercice_button"
+        app:layout_constraintTop_toBottomOf="@+id/workout_description_input" />
+
+    <Button
+        android:id="@+id/save_exercice_button"
+>>>>>>> 35e2a39 (Initial commit)
         style="@style/SubtitleTextStyle"
         android:layout_margin="@dimen/default_margin"
         android:layout_width="260dp"

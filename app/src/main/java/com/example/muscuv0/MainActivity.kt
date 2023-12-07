@@ -2,6 +2,10 @@ package com.example.muscuv0
 
 import android.os.Bundle
 import android.widget.Button
+<<<<<<< HEAD
+=======
+import android.widget.TextView
+>>>>>>> 35e2a39 (Initial commit)
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.muscuv0.fragments.AddWorkoutFragrment
@@ -19,7 +23,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+<<<<<<< HEAD
 
+=======
+        // bouton home
+>>>>>>> 35e2a39 (Initial commit)
         val btnclickme = findViewById<FloatingActionButton>(R.id.home_button)
         btnclickme.setOnClickListener {
             loadFragment(HomeFragment(this))
@@ -30,16 +38,27 @@ class MainActivity : AppCompatActivity() {
         navigationView.setOnNavigationItemSelectedListener {
             when(it.itemId)
             {
+<<<<<<< HEAD
 
+=======
+                // bouton creer workout
+>>>>>>> 35e2a39 (Initial commit)
                 R.id.create_workout -> {
                     loadFragment(AddWorkoutFragrment(this))
                     return@setOnNavigationItemSelectedListener true
                 }
+<<<<<<< HEAD
+=======
+                // bouton workout liked
+>>>>>>> 35e2a39 (Initial commit)
                 R.id.saved_workout -> {
                     loadFragment(CollectionFragment(this))
                     return@setOnNavigationItemSelectedListener true
                 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35e2a39 (Initial commit)
                 else -> false
             }
         }

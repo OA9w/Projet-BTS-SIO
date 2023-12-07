@@ -20,6 +20,7 @@
     <string name="create_workout_add_workout_description_input">@string/item_workout_description</string>
     <string name="create_workout_add_workout_name_input">@string/item_workout_name</string>
 
+<<<<<<< HEAD
 
     <!-- Page de liste des exercices -->
     <string name="pec_exercise">Pec exercise</string>
@@ -32,6 +33,18 @@
     <string name="pull_up">Pull up</string>
     <string name="rowing">Rowing</string>
 
+=======
+    <string-array name="create_workout_add_item_exercise">
+        <item>Bench Press</item>
+        <item>Squat</item>
+        <item>Deadlift</item>
+        <item>Pull Up</item>
+        <item>Push Up</item>
+        <item>Leg Extension</item>
+        <item>Leg Curl</item>
+        <item>Biceps Curl</item>
+    </string-array>
+>>>>>>> 35e2a39 (Initial commit)
 
     <string name="create_workout_save_workout_button">Save Workout</string>
 
@@ -59,6 +72,7 @@
         <item>Biceps Curl</item>
     </string-array>
 
+<<<<<<< HEAD
     <!-- Page de connexion -->
     <string name="login_page_username_mail">Identifiant/Email</string>
     <string name="login_page_password">Mot de passe</string>
@@ -70,5 +84,7 @@
     <string name="sing_in_page_password">Mot de passe</string>
     <string name="sing_in_page_password2">Confirmer mot de passe</string>
     <string name="sign_in_page_btn_create">Créer compte</string>
+=======
+>>>>>>> 35e2a39 (Initial commit)
 
 </resources>

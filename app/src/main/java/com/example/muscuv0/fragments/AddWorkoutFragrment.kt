@@ -5,7 +5,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+<<<<<<< HEAD
 import android.view.View.OnClickListener
+=======
+>>>>>>> 35e2a39 (Initial commit)
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
@@ -28,12 +31,17 @@ class AddWorkoutFragrment(
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+<<<<<<< HEAD
 
 
         val view = inflater?.inflate(R.layout.fragment_add_workout, container, false)
 
 
 
+=======
+        val view = inflater?.inflate(R.layout.fragment_add_workout, container, false)
+
+>>>>>>> 35e2a39 (Initial commit)
         // recuper uploadImage pourlui associer son composant
         uploadedImage = view!!.findViewById(R.id.preview_image)
 
@@ -49,6 +57,7 @@ class AddWorkoutFragrment(
     }
 
 
+<<<<<<< HEAD
 
     private fun openlist(view: View) {
         val btn = view.findViewById<Button>(R.id.add_exercice_button)
@@ -60,6 +69,9 @@ class AddWorkoutFragrment(
 
 
 // a completer quand l'ajoue d'exo marchera!!!!!!
+=======
+    // a completer quand l'ajoue d'exo marchera!!!!!!
+>>>>>>> 35e2a39 (Initial commit)
     private fun sendForm(view: View) {
         val repo = WorkoutRepository()
         val workoutName = view.findViewById<EditText>(R.id.workout_name_input).text.toString()
@@ -98,8 +110,11 @@ class AddWorkoutFragrment(
         }
     }
 
+<<<<<<< HEAD
     override fun getView(): View? {
         return super.getView()
     }
 
+=======
+>>>>>>> 35e2a39 (Initial commit)
 }
