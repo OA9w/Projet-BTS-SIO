@@ -11,11 +11,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import com.example.muscuv0.MainActivity
-import com.example.muscuv0.R
-import com.example.muscuv0.WorkoutModel
-import com.example.muscuv0.WorkoutRepository
 import java.util.UUID
 
 class ConnexionActivity : AppCompatActivity() {
@@ -23,6 +18,8 @@ class ConnexionActivity : AppCompatActivity() {
     fun onStart(view: View) {
         setContentView(R.layout.connexion_start)
 
+        val login_btn = findViewById<Button>(R.id.login_btn)
+                login_btn.setOnClickListener {
         val userNameLogin = view.findViewById<EditText>(R.id.login_username_email).text.toString()
         val userPassword = view.findViewById<EditText>(R.id.login_password).text.toString()
 

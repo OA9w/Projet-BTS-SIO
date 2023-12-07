@@ -6,17 +6,16 @@
     android:layout_margin="@dimen/default_margin">
 
 
-
     <EditText
         android:id="@+id/sign_in_username"
         style="@style/DefaultTextStyle"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="@dimen/default_margin"
         android:hint="@string/sign_in_page_username"
         android:padding="@dimen/default_margin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/sign_in_email"
@@ -33,6 +32,7 @@
     <EditText
         android:id="@+id/sign_in_password1"
         style="@style/DefaultTextStyle"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:hint="@string/login_page_password"
@@ -44,6 +44,7 @@
     <EditText
         android:id="@+id/sign_in_password2"
         style="@style/DefaultTextStyle"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:hint="@string/sing_in_page_password2"
