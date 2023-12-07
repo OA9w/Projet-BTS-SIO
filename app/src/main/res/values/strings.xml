@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">MuscuV.0</string>
+
+    <string name="bottom_home_item">Accueil</string>
+    <string name="bottom_collection_item">Collection</string>
+    <string name="bottom_add_workout_item">Ajouter</string>
+
+    <!-- Page d'accueil -->
+    <string name="home_page_title">Welcome back, Mael !</string>
+    <string name="home_page_select_workout_section">Select a Workout</string>
+    <string name="home_page_workout_name">Workout Name</string>
+    <string name="home_page_workout_description">Workout description</string>
+    <string name="home_page_workout_difficulties_level">Workout difficulties level</string>
+    <string name="home_page_workout_duration">Workout duration</string>
+
+    <!-- Page de création de son workout -->
+    <string name="add_workout_page_title">Création du Workout</string>
+    <string name="create_workout_item_image_add_to_the_workout_button">Charger image</string>
+    <string name="create_workout_item_exercise_add_to_the_workout_button">Add exercise</string>
+    <string name="create_workout_add_workout_description_input">@string/item_workout_description</string>
+    <string name="create_workout_add_workout_name_input">@string/item_workout_name</string>
+
+
+    <!-- Page de liste des exercices -->
+    <string name="pec_exercise">Pec exercise</string>
+    <string name="bench_press">Bench press</string>
+    <string name="push_up">Push up</string>
+    <string name="legs_exercise">Legs exercise</string>
+    <string name="squat">Squat</string>
+    <string name="deadlift">Deadlift</string>
+    <string name="back_exercise">Back exercise</string>
+    <string name="pull_up">Pull up</string>
+    <string name="rowing">Rowing</string>
+
+
+    <string name="create_workout_save_workout_button">Save Workout</string>
+
+    <!-- Page de collection de ses workouts -->
+    <string name="collection_page_title">Workouts Favories</string>
+    <string name="item_workout_name">Workout Name</string>
+    <string name="item_workout_description">Workout Description</string>
+
+    <!-- Pendant workout -->
+    <string name="during_workout_name">Workout Name</string>
+    <string name="during_workout_progression">Exercice ?/?</string>
+
+    <!-- Pop up detail workout -->
+    <string name="popup_page_workout_Title">Workout Details</string>
+    <string name="popup_page_workout_name">Workout Name</string>
+    <string name="popup_page_workout_description">Workout description</string>
+    <string-array name="popup_workout_exercise">
+        <item>Bench Press</item>
+        <item>Squat</item>
+        <item>Deadlift</item>
+        <item>Pull Up</item>
+        <item>Push Up</item>
+        <item>Leg Extension</item>
+        <item>Leg Curl</item>
+        <item>Biceps Curl</item>
+    </string-array>
+
+    <!-- Page de connexion -->
+    <string name="login_page_username_mail">Identifiant/Email</string>
+    <string name="login_page_password">Mot de passe</string>
+    <string name="login_page_btn_connect">Connexion</string>
+
+    <!-- Page de création de compte -->
+    <string name="sign_in_page_username">Identifiant</string>
+    <string name="sing_in_page_email">Email</string>
+    <string name="sing_in_page_password">Mot de passe</string>
+    <string name="sing_in_page_password2">Confirmer mot de passe</string>
+    <string name="sign_in_page_btn_create">Créer compte</string>
+
+</resources>

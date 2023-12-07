@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_margin">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/upload_button"
+            style="@style/SubtitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:padding="@dimen/default_margin"
+            android:text="@string/create_workout_item_image_add_to_the_workout_button" />
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ketlebell"
+            android:contentDescription="@string/create_workout_item_image_add_to_the_workout_button" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/workout_name_input"
+        style="@style/DefaultTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/create_workout_add_workout_name_input"
+        android:padding="@dimen/default_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <EditText
+        android:id="@+id/workout_description_input"
+        style="@style/DefaultTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/create_workout_add_workout_description_input"
+        android:padding="@dimen/default_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workout_name_input" />
+
+
+    <ListView
+        android:id="@+id/list_exercice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/add_exercice_button"
+        app:layout_constraintTop_toBottomOf="@+id/workout_description_input" />
+
+    <Button
+        android:id="@+id/add_exercice_button"
+        style="@style/SubtitleTextStyle"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:background="@color/darkgrey"
+        android:text="@string/create_workout_item_exercise_add_to_the_workout_button"
+        app:layout_constraintBottom_toTopOf="@+id/save_workout_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/save_workout_button"
+        style="@style/SubtitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@color/darkgrey"
+        android:text="@string/create_workout_save_workout_button"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
