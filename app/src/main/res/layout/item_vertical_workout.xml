@@ -10,10 +10,7 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-<<<<<<< HEAD
-=======
         xmlns:app="http://schemas.android.com/apk/res-auto"
->>>>>>> 35e2a39 (Initial commit)
         android:layout_width="350dp"
         android:layout_height="170dp"
         android:layout_marginBottom="@dimen/default_margin"
@@ -72,11 +69,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/home_page_workout_name"
-<<<<<<< HEAD
             android:layout_marginStart="@dimen/default_margin"
-=======
             android:layout_marginLeft="@dimen/default_margin"
->>>>>>> 35e2a39 (Initial commit)
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/top_shadow"
@@ -86,11 +80,8 @@
             android:id="@+id/not_like_icon"
             android:layout_width="30dp"
             android:layout_height="30dp"
-<<<<<<< HEAD
             android:layout_marginEnd="@dimen/default_margin"
-=======
             android:layout_marginRight="@dimen/default_margin"
->>>>>>> 35e2a39 (Initial commit)
             android:src="@drawable/ic_unsaved"
             app:tint="@color/orange"
             app:layout_constraintBottom_toBottomOf="parent"

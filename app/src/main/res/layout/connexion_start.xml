@@ -12,6 +12,7 @@
     <EditText
         android:id="@+id/login_username_email"
         style="@style/DefaultTextStyle"
+        android:textColor="@color/lessdarkgrey"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:hint="@string/login_page_username_mail"
@@ -23,6 +24,7 @@
     <EditText
         android:id="@+id/login_password"
         style="@style/DefaultTextStyle"
+        android:textColor="@color/lessdarkgrey"
         android:layout_width="match_parent"
         android:inputType="textPassword"
         android:layout_height="60dp"

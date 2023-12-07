@@ -22,11 +22,6 @@ class WorkoutRepository {
 
         // creer une liste qui va contenir nos workout
         val workoutList = arrayListOf<WorkoutModel>()
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 35e2a39 (Initial commit)
     }
 
     fun updateData(callback: () -> Unit) {

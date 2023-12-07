@@ -9,10 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.example.muscuv0.MainActivity
 import com.example.muscuv0.R
-<<<<<<< HEAD
-=======
 import com.example.muscuv0.WorkoutModel
->>>>>>> 35e2a39 (Initial commit)
 import com.example.muscuv0.WorkoutRepository.Singleton.workoutList
 
 class HomeFragment(
