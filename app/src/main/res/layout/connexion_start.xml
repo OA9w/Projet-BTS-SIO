@@ -45,5 +45,15 @@
         android:text="@string/login_page_btn_connect"
         app:layout_constraintBottom_toBottomOf="parent" />
 
+    <!-- connexion_start.xml -->
+    <Button
+        android:id="@+id/goto_registration_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        app:layout_constraintBottom_toTopOf="@+id/login_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
