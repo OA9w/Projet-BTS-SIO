@@ -73,6 +73,7 @@
     <string name="login_page_username_mail">Identifiant/Email</string>
     <string name="login_page_password">Mot de passe</string>
     <string name="login_page_btn_connect">Connexion</string>
+    <string name="login_page_btn_create_account">Créer un compte</string>
 
     <!-- Page de création de compte -->
     <string name="sign_in_page_username">Identifiant</string>

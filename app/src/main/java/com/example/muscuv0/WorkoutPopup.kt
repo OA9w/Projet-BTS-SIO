@@ -21,7 +21,7 @@ class WorkoutPopup(
         setupComponents()
         setupCloseButton()
         setupLikeButton()
-
+        setupDetailButton()
     }
 
     private fun updateLike(button: ImageView) {
@@ -47,7 +47,11 @@ class WorkoutPopup(
         }
 
     }
-
+    private fun setupDetailButton() {
+        findViewById<ImageView>(R.id.go_to_icon).setOnClickListener{
+            setContentView(R.layout.workout_page)
+        }
+    }
     private fun setupCloseButton() {
         findViewById<ImageView>(R.id.close_button).setOnClickListener {
             dismiss()

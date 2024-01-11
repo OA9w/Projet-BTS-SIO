@@ -7,7 +7,6 @@ plugins {
 android {
     namespace 'com.example.muscuv0'
     compileSdkVersion 34
-    buildToolsVersion '27.0.3'
 
     defaultConfig {
         applicationId "com.example.muscuv0"
@@ -35,7 +34,7 @@ android {
     buildFeatures {
         viewBinding true
     }
-    buildToolsVersion '33.0.2'
+
 }
 
 dependencies {
